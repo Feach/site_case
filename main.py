@@ -3,10 +3,14 @@ def plus():
     b = int(input())
     q = a+b
     print(q)
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+def minus():
+    a = int(input())
+    b = int(input())
+    c = a - b
+    print(c)
 
 
 if __name__ == '__main__':
-    plus()
+    minus()
